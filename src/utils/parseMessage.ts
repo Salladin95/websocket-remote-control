@@ -1,5 +1,5 @@
 import { unexpectedMsg } from '.';
-import { CommandOption, Message } from '..';
+import { CommandOption, Message } from '../components/contracts';
 
 const parseMessage = (message: string): Message => {
   const arrMsg = message.split(' ');
